@@ -17,10 +17,17 @@ jobs:
       - name: Install Pandoc + LaTeX
         run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
 
+        
+      - name: Install Pandoc + full LaTeX (with SourceSansPro)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra
+      
+
       - name: Create output folder
         run: mkdir -p dist
 
-        
+
       # - name: Download theme and styles
       #   run: |
       #     curl -L https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -o templates/eisvogel.tex
