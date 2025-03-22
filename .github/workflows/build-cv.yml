@@ -14,8 +14,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Pandoc + LaTeX
-        run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
+      # - name: Install Pandoc + LaTeX
+      #   run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
 
       # - name: Install Pandoc + full LaTeX (with SourceSansPro)
       #   run: |
