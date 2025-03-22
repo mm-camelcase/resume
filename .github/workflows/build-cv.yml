@@ -17,6 +17,9 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get install pandoc texlive-xetex -y
 
+      - name: Create output directory
+        run: mkdir -p dist    
+
       - name: Generate HTML
         run: pandoc cv.md -o dist/cv.html
 
@@ -26,8 +29,14 @@ jobs:
       - name: Generate DOCX
         run: pandoc cv.md -o dist/cv.docx
 
-      - name: Upload to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload CV files as artifacts
+        uses: actions/upload-artifact@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          name: resume-files
+          path: dist/
+
+          #- name: Upload to GitHub Pages
+          #uses: peaceiris/actions-gh-pages@v3
+          #with:
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          #publish_dir: ./dist
