@@ -1,0 +1,33 @@
+# .github/workflows/build-cv.yml
+name: Build CV
+
+on:
+  push:
+    paths:
+      - 'cv.md'
+      - '.github/workflows/build-cv.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Pandoc
+        run: sudo apt-get install pandoc texlive-xetex -y
+
+      - name: Generate HTML
+        run: pandoc cv.md -o dist/cv.html
+
+      - name: Generate PDF
+        run: pandoc cv.md -o dist/cv.pdf
+
+      - name: Generate DOCX
+        run: pandoc cv.md -o dist/cv.docx
+
+      - name: Upload to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
