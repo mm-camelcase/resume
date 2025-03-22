@@ -20,11 +20,11 @@ jobs:
       - name: Create output folder
         run: mkdir -p dist
 
-      - name: Download theme and styles
-        run: |
-          curl -L https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -o templates/eisvogel.tex
-          curl -L https://your-link-to/cv.css -o styles/cv.css
-          # Optional: Add your style.docx in the repo under templates/
+      # - name: Download theme and styles
+      #   run: |
+      #     curl -L https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -o templates/eisvogel.tex
+      #     curl -L https://your-link-to/cv.css -o styles/cv.css
+      #     # Optional: Add your style.docx in the repo under templates/
 
       - name: Generate HTML (styled)
         run: |
