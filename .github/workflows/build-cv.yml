@@ -17,12 +17,16 @@ jobs:
       - name: Install Pandoc + LaTeX
         run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
 
-        
-      - name: Install Pandoc + full LaTeX (with SourceSansPro)
+      # - name: Install Pandoc + full LaTeX (with SourceSansPro)
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra
+      
+      - name: Install Pandoc + LaTeX (full stack for Eisvogel)
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra
-      
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra texlive-latex-extra
+        
 
       - name: Create output folder
         run: mkdir -p dist
