@@ -22,14 +22,20 @@ jobs:
       #     sudo apt-get update
       #     sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra
       
-      - name: Install Pandoc + Full LaTeX for Eisvogel
+    
+  
+      - name: Install Pandoc + Full LaTeX (for Eisvogel)
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex \
-            texlive-fonts-extra texlive-latex-extra texlive-latex-recommended \
-            texlive-fonts-recommended texlive-plain-generic
-
-        
+          sudo apt-get install -y \
+          pandoc \
+          texlive-xetex \
+          texlive-fonts-recommended \
+          texlive-fonts-extra \
+          texlive-latex-extra \
+          texlive-latex-recommended \
+          texlive-plain-generic \
+          lmodern
 
       - name: Create output folder
         run: mkdir -p dist
