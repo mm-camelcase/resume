@@ -1,5 +1,4 @@
-# .github/workflows/build-cv.yml
-name: Build CV
+name: Build Resume
 
 on:
   push:
@@ -12,31 +11,49 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Install Pandoc
-        run: sudo apt-get install pandoc texlive-xetex -y
+      - name: Install Pandoc + LaTeX
+        run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
 
-      - name: Create output directory
-        run: mkdir -p dist    
+      - name: Create output folder
+        run: mkdir -p dist
 
-      - name: Generate HTML
-        run: pandoc cv.md -o dist/cv.html
+      - name: Download theme and styles
+        run: |
+          curl -L https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -o templates/eisvogel.tex
+          curl -L https://your-link-to/cv.css -o styles/cv.css
+          # Optional: Add your style.docx in the repo under templates/
 
-      - name: Generate PDF
-        run: pandoc cv.md -o dist/cv.pdf
+      - name: Generate HTML (styled)
+        run: |
+          pandoc cv.md -o dist/cv.html \
+            --standalone \
+            --css=styles/cv.css \
+            --metadata title="Mark Mitchell – Resume"
 
-      - name: Generate DOCX
-        run: pandoc cv.md -o dist/cv.docx
+      - name: Generate PDF (Eisvogel template)
+        run: |
+          pandoc cv.md -o dist/cv.pdf \
+            --from markdown \
+            --template=templates/eisvogel.tex \
+            --pdf-engine=xelatex \
+            --listings
 
-      - name: Upload CV files as artifacts
+      - name: Generate DOCX (styled)
+        run: |
+          pandoc cv.md -o dist/cv.docx \
+            --reference-doc=templates/style.docx
+
+      - name: Upload generated files (artifacts)
         uses: actions/upload-artifact@v4
         with:
           name: resume-files
           path: dist/
 
-          #- name: Upload to GitHub Pages
-          #uses: peaceiris/actions-gh-pages@v3
-          #with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
-          #publish_dir: ./dist
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./dist
