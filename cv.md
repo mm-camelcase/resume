@@ -16,6 +16,7 @@ I have over 20 years Java programming and application development experience wor
 | Terraform    | Intermediate | 3                |
 
 
+
 ## Computer skills
 
 ## Languages, Frameworks and Platforms
