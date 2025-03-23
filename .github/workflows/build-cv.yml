@@ -14,68 +14,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # - name: Install Pandoc + LaTeX
-      #   run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      
-      # - name: Install Pandoc + full LaTeX (with SourceSansPro)
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra
-      
-    
-  
-      - name: Install Pandoc + Full LaTeX (for Eisvogel)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-          pandoc \
-          texlive-xetex \
-          texlive-fonts-recommended \
-          texlive-fonts-extra \
-          texlive-latex-extra \
-          texlive-latex-recommended \
-          texlive-plain-generic \
-          lmodern
-
-      - name: Create output folder
+      - name: Create output directory
         run: mkdir -p dist
 
+      - name: Generate DOCX (with Word style)
+        run: |
+          pandoc cv.md -o dist/cv.docx \
+            --reference-doc=templates/style.docx
 
-      # - name: Download theme and styles
-      #   run: |
-      #     curl -L https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -o templates/eisvogel.tex
-      #     curl -L https://your-link-to/cv.css -o styles/cv.css
-      #     # Optional: Add your style.docx in the repo under templates/
-
-      - name: Generate HTML (styled)
+      - name: Generate HTML (with CSS)
         run: |
           pandoc cv.md -o dist/cv.html \
             --standalone \
             --css=styles/cv.css \
             --metadata title="Mark Mitchell – Resume"
 
-      - name: Generate PDF (Eisvogel template)
-        run: |
-          pandoc cv.md -o dist/cv.pdf \
-            --from markdown \
-            --template=templates/eisvogel.tex \
-            --pdf-engine=xelatex \
-            --listings
+      - name: Generate PDF (fallback)
+        run: pandoc cv.md -o dist/cv.pdf
 
-      - name: Generate DOCX (styled)
-        run: |
-          pandoc cv.md -o dist/cv.docx \
-            --reference-doc=templates/style.docx
-
-      - name: Upload generated files (artifacts)
+      - name: Upload resume artifacts
         uses: actions/upload-artifact@v4
         with:
           name: resume-files
           path: dist/
 
-      # - name: Deploy to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./dist
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
