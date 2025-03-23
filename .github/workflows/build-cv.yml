@@ -14,8 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
+      # - name: Install Pandoc
+      #   run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Install Pandoc + PDF support
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
 
       - name: Create output directory
         run: mkdir -p dist
