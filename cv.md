@@ -106,6 +106,7 @@ JMS, RabbitMQ, SQS(AWS)
     - Deploying code with feature flags (AWS AppConfig)
 
 
+
 -----------------------------------------------
 
 | **Senior Software Developer (Contract)**        | **Sept 2020 – Aug 2021**     |
