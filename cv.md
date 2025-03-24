@@ -9,7 +9,6 @@ I have over 20 years Java programming and application development experience wor
 ## Computer skills
 
 **Languages, Frameworks and Platforms**  
-
 - Java, JEE, Spring, Spring Boot, jUnit, Hibernate, Velocity, Struts, ANTLR
 - Shell scripting
 - SQL, PL/SQL Scripting
@@ -54,7 +53,6 @@ JMS, RabbitMQ, SQS(AWS)
 - Security modernisation for public facing APIs
 - Kubernetes sandbox development environment using Minikube, Helm and Skaffold
 - Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included:
-
     - Deploying services to AWS ECS (Spring Boot and Terraform)
     - Service security (Spring Security, Ping Federate and AWS Cognito)
     - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
