@@ -117,16 +117,16 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
     - Setup CI/CD tooling using Jenkins pipelines on a Kubernetes cluster.
     - Creation of a remote developer sandbox leveraging Eclipse Che, allowing developers to spin up fully emulated personal development/debugging environments in minutes, without the need to locally install many programs, frameworks and tools.
 
+-----------------------------------------------
 
+| **Senior Software Developer (Contract)**        | **Mar 2013 – June 2017**     |
+|:--------------|-----------:|
 
-### Senior Software Developer (Contract)
-
-**Mar 2013 – June 2017**
-
-- The Now Factory (an IBM company)
-- The Now Factory provides analytics software that helps communications service providers gain real-time insights into their customers by analysing massive quantities of network and business data. It was acquired by IBM in 2014.
+*The Now Factory (an IBM company)*
+*The Now Factory provides analytics software that helps communications service providers gain real-time insights into their customers by analysing massive quantities of network and business data. It was acquired by IBM in 2014.*
 
 **Role:**
+
 - Applications Team member responsible for developing next generation middleware
 - Writing unit tests
 - Develop proof of concept products/features utilising latest technologies
@@ -135,71 +135,61 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 - Participate in scrum development process (planning, estimates, etc.)
 
 **Key Projects:**
+
 - Responsible for developing the backend of a data analytics application written in Java using Spring, REST, JMS, Presto & Hive.  
 - Developed various features including a formula parser and validation service which involved parsing and validating a grammar and providing detailed feedback to client (that could be used in UI to highlight lexical errors & provide content assist). Implemented using Spring and ANTLR.
 - Developed a data loading CLI module responsible for distributing and loading potentially 100s of millions of records from text files into potentially 80 separate Oracle database instances. A key requirement was high speed loading. Implemented using Java, Spring Batch and SQL Loader.
 - Proof of concept next generation data analytics UI. Developed using latest ES6 JavaScript features, NodeJS, Yarn, NMP, React, Redux and many other libraries.
 
-- The Now Factory (an IBM company)
-- The Now Factory provides analytics software that helps communications service providers gain real-time insights into their customers by analysing massive quantities of network and business data. It was acquired by IBM in 2014.
+-----------------------------------------------
 
+| **Senior Software Developer**        | **Jul 2008 – Feb 2013**     |
+|:--------------|-----------:|
 
-
-### Senior Software Developer
-
-**Jul 2008 – Feb 2013**
-
-- Wedo Technologies
-- Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.
+*Wedo Technologies*
+*Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.*
 
 **Role:**
+
 - Full stack development role. 
 - Writing unit tests
 - Debugging and fixing code bugs
 
 **Key Projects:**
+
 - Responsible for developing the backend of a data analytics application written in Java using Spring, REST, JMS, Presto & Hive.  
 - Developed various features including a formula parser and validation service which involved parsing and validating a grammar and providing detailed feedback to client (that could be used in UI to highlight lexical errors & provide content assist). Implemented using Spring and ANTLR.
 - Implemented various features for a data analytics Portlet application container. For example, a configurable charting dashboard using technologies such as jQuery, Highcharts, Struts MVC, Spring services, Velocity, Hibernate, Oracle.
 - Expression builder component using jQuery and CodeMirror UI backed by Struts MVC and Spring services
 
-- Wedo Technologies
-- Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.
+-----------------------------------------------
 
+| **Software Developer**        | **Jan 2001 – Sep 2006**     |
+|:--------------|-----------:|
 
-### Software Developer
-
-**Jan 2001 – Sep 2006**
-
-- In1Solutions
-- Provider of Hotel Booking Engine Technology.
+*In1Solutions*
+*Provider of Hotel Booking Engine Technology.*
 
 **Role:**
+
 - Responsible for the development of a product called Hotel In1
 - Designing and managing the database, writing PL/SQL maintenance scripts, optimising performance, etc.
 - Liaising with the Hoteliers system vendor to capture requirements and identify integration issues
 - Debugging and fixing code bugs
 
 **Key Projects:**
+
 - Developed a Hotel booking engine which is used by hundreds of hoteliers worldwide. Implemented using a Flash based UI, Java & EJB middleware. Backed by an Oracle database.
 - Integrated the booking engine with several hotelier’s in-house property management systems using various Web Service technologies (SOAP, REST, JAXB, XMLBeans, Axis)
-
-- In1Solutions
-- Provider of Hotel Booking Engine Technology.
-
-
-
 
 
 ## Education
 
-## Certifications
+**Certifications**
+
 - Sun Certified Programmer (Java 5.0)
 
-- Athlone Institute of Technology
+**Athlone Institute of Technology**
 
-H. Dip in Computing (1999-2000)
-B. Eng Polymer Engineering (1995-1999)
-
-H. Dip in Computing (1999-2000)
-B. Eng Polymer Engineering (1995-1999)
+- H. Dip in Computing (1999-2000)
+- B. Eng Polymer Engineering (1995-1999)
