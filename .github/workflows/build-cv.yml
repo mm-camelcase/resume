@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate DOCX (with Word style)
         run: |
-          pandoc cv.md -o cv.docx --lua-filter=templates/fix-bullets.lua --reference-doc=templates/style.docx
+          pandoc cv.md -o dist/cv.docx --lua-filter=templates/fix-bullets.lua --reference-doc=templates/style.docx
 
       - name: Generate HTML (with CSS)
         run: |
