@@ -60,6 +60,7 @@ JMS, RabbitMQ, SQS(AWS)
     - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
     - Deploying code with feature flags (AWS AppConfig)
 
+______________________
 
 * fruits
   + apples
@@ -71,7 +72,7 @@ JMS, RabbitMQ, SQS(AWS)
   + broccoli
   + chard
 
-
+***************************
 
 **Key Projects:**  
 
