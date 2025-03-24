@@ -9,21 +9,26 @@ I have over 20 years Java programming and application development experience wor
 ## Computer skills
 
 **Languages, Frameworks and Platforms**  
+
 - Java, JEE, Spring, Spring Boot, jUnit, Hibernate, Velocity, Struts, ANTLR
 - Shell scripting
 - SQL, PL/SQL Scripting
 - JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
 - Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
 **DEatastores & vents**  
+
 - Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
 JMS, RabbitMQ, SQS(AWS)
 **Development Tools**  
+
 - Maven, Ant, Git, SVN, CVS, Jira, Jenkins
 - IntelliJ IDE, Eclipse IDE, NetBeans IDE, WebStorm IDE
 - ArchUnit, Checkstyle, FindBugs, JaCoCo
 **DevOps tools**  
+
 - Kubernetes, Chef, Terraform, Terragrunt, Docker, Vagrant, Localstack, OWASP Zap, Jenkins Pipelines, Gitlab CI, Github Actions, jFrog.
 **AWS & Azure**  
+
 - Eclipse Che, Datadog, Papertrail, Unison, Userify
 
 
