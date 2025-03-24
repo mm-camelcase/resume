@@ -15,18 +15,22 @@ I have over 20 years Java programming and application development experience wor
 - SQL, PL/SQL Scripting
 - JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
 - Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
-**DEatastores & vents**  
+
+**Datastores & vents**  
 
 - Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
 JMS, RabbitMQ, SQS(AWS)
+
 **Development Tools**  
 
 - Maven, Ant, Git, SVN, CVS, Jira, Jenkins
 - IntelliJ IDE, Eclipse IDE, NetBeans IDE, WebStorm IDE
 - ArchUnit, Checkstyle, FindBugs, JaCoCo
+
 **DevOps tools**  
 
 - Kubernetes, Chef, Terraform, Terragrunt, Docker, Vagrant, Localstack, OWASP Zap, Jenkins Pipelines, Gitlab CI, Github Actions, jFrog.
+
 **AWS & Azure**  
 
 - Eclipse Che, Datadog, Papertrail, Unison, Userify
@@ -40,10 +44,13 @@ JMS, RabbitMQ, SQS(AWS)
 *Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*  
 
 **Role:**  
+
 - Development and maintenance of customer facing APIs and associated security concerns  
 - Identify process/pipeline/cycle inefficiencies across team & squads  
 - Provide technical training and advice to squads as part of the integration’s teams modernisation drive  
+
 **Key Projects:**  
+
 - Security modernisation for public facing APIs
 - Kubernetes sandbox development environment using Minikube, Helm and Skaffold
 - Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included... 
