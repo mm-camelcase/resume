@@ -2,85 +2,43 @@
 **Email:** markmitchell451@gmail.com
 
 
-
 ## Summary
-
 
 I have over 20 years Java programming and application development experience working across various industries including fintech, telecommunications and hospitality. I possess practical, hands-on expertise in executing and architecting the shift from legacy monolithic systems to a microservices-oriented environment. I also have strong DevOps skills ranging from Cloud infrastructure deployment automation to pipeline CICD configuration. During the initial 10 years of my career, I specialised as a full-stack developer, where my responsibilities included implementing robust middleware and creating feature-rich UIs.
 
-
-
-
 ## Computer skills
 
-**Languages, Frameworks and Platforms**
+**Languages, Frameworks and Platforms**  
 - Java, JEE, Spring, Spring Boot, jUnit, Hibernate, Velocity, Struts, ANTLR
 - Shell scripting
-SQL, PL/SQL Scripting
+- SQL, PL/SQL Scripting
 - JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
 - Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
-**DEatastores & vents**
+**DEatastores & vents**  
 - Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
 JMS, RabbitMQ, SQS(AWS)
-**Development Tools**
+**Development Tools**  
 - Maven, Ant, Git, SVN, CVS, Jira, Jenkins
 - IntelliJ IDE, Eclipse IDE, NetBeans IDE, WebStorm IDE
 - ArchUnit, Checkstyle, FindBugs, JaCoCo
-**DevOps tools**
+**DevOps tools**  
 - Kubernetes, Chef, Terraform, Terragrunt, Docker, Vagrant, Localstack, OWASP Zap, Jenkins Pipelines, Gitlab CI, Github Actions, jFrog.
-**AWS & Azure**
+**AWS & Azure**  
 - Eclipse Che, Datadog, Papertrail, Unison, Userify
-
-## Languages, Frameworks and Platforms
-- Java, JEE, Spring, Spring Boot, jUnit, Hibernate, Velocity, Struts, ANTLR
-- Shell scripting
-SQL, PL/SQL Scripting
-- JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
-- Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
-## Datastores & Events
-- Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
-JMS, RabbitMQ, SQS(AWS)
-## Development Tools
-- Maven, Ant, Git, SVN, CVS, Jira, Jenkins
-- IntelliJ IDE, Eclipse IDE, NetBeans IDE, WebStorm IDE
-- ArchUnit, Checkstyle, FindBugs, JaCoCo
-## DevOps tools
-- Kubernetes, Chef, Terraform, Terragrunt, Docker, Vagrant, Localstack, OWASP Zap, Jenkins Pipelines, Gitlab CI, Github Actions, jFrog.
-## AWS & Azure 
-- Eclipse Che, Datadog, Papertrail, Unison, Userify
-
-## Languages, Frameworks and Platforms
-- Java, JEE, Spring, Spring Boot, jUnit, Hibernate, Velocity, Struts, ANTLR
-- Shell scripting
-SQL, PL/SQL Scripting
-- JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
-- Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
-## Datastores & Events
-- Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
-JMS, RabbitMQ, SQS(AWS)
-## Development Tools
-- Maven, Ant, Git, SVN, CVS, Jira, Jenkins
-- IntelliJ IDE, Eclipse IDE, NetBeans IDE, WebStorm IDE
-- ArchUnit, Checkstyle, FindBugs, JaCoCo
-## DevOps tools
-- Kubernetes, Chef, Terraform, Terragrunt, Docker, Vagrant, Localstack, OWASP Zap, Jenkins Pipelines, Gitlab CI, Github Actions, jFrog.
-## AWS & Azure 
-- Eclipse Che, Datadog, Papertrail, Unison, Userify
-
 
 
 ## Experience
 
 | **Senior Software Developer (Contract)**        | **Aug 2021 – Apr 2023**     |
 |:--------------|-----------:|
-*Workhuman (Integrations Team)*
-*Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*
+*Workhuman (Integrations Team)*  
+*Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*  
 
-**Role:**
-- Development and maintenance of customer facing APIs and associated security concerns
-- Identify process/pipeline/cycle inefficiencies across team & squads
-- Provide technical training and advice to squads as part of the integration’s teams modernisation drive
-**Key Projects:**
+**Role:**  
+- Development and maintenance of customer facing APIs and associated security concerns  
+- Identify process/pipeline/cycle inefficiencies across team & squads  
+- Provide technical training and advice to squads as part of the integration’s teams modernisation drive  
+**Key Projects:**  
 - Security modernisation for public facing APIs
 - Kubernetes sandbox development environment using Minikube, Helm and Skaffold
 - Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included... 
@@ -89,16 +47,11 @@ JMS, RabbitMQ, SQS(AWS)
 - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
 - Deploying code with feature flags (AWS AppConfig)
 
-- Workhuman (Integrations Team)
-- Workhuman provide recognition software to companies enabling employees to recognise and reward each other. 
 
+| **Senior Software Developer (Contract)**        | **Sept 2020 – Aug 2021**     |
+|:--------------|-----------:|
 
-
-### Senior Software Developer (Contract)
-
-**Sept 2020 – Aug 2021**
-
-- LexisNexis Risk Solutions (Telematics Team)
+- LexisNexis Risk Solutions (Telematics Team)  
 - LexisNexis Risk Telematics provide analytic solutions to car insurance companies using event data provided by automakers.  
 
 **Role:**
