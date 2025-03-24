@@ -16,7 +16,7 @@ I have over 20 years Java programming and application development experience wor
 - JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
 - Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
 
-**Datastores & vents**  
+**Datastores & Events**  
 
 - Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
 JMS, RabbitMQ, SQS(AWS)

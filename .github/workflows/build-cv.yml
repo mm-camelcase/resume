@@ -44,6 +44,10 @@ jobs:
       - name: Generate PDF (fallback)
         run: pandoc cv.md -o dist/cv.pdf
 
+      - name: Generate PDF from DOCX
+        run: pandoc dist/cv.docx -o dist/cv2.pdf
+      
+
       - name: Upload resume artifacts
         uses: actions/upload-artifact@v4
         with:
