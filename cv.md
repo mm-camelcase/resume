@@ -77,15 +77,10 @@ JMS, RabbitMQ, SQS(AWS)
 
 ## Experience
 
-### Senior Software Developer (Contract)
-
-**Aug 2021 – Apr 2023**
-
-| Senior Software Developer (Contract)        | **Aug 2021 – Apr 2023**     |
+| **Senior Software Developer (Contract)**        | **Aug 2021 – Apr 2023**     |
 |--------------|-----------|
-
-- Workhuman (Integrations Team)
-- Workhuman provide recognition software to companies enabling employees to recognise and reward each other. 
+*Workhuman (Integrations Team)*
+*Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*
 
 **Role:**
 - Development and maintenance of customer facing APIs and associated security concerns
