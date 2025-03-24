@@ -1,5 +1,5 @@
 # Mark Mitchell
-| **Email:** mark@camelcase.email       | **Portfolio:**www.camelcase.club   |
+| **Email:**   mark@camelcase.email       | **Portfolio:**   [www.camelcase.club](www.camelcase.club)   |
 |:--------------|-----------:|
 
 ## Summary
@@ -63,7 +63,7 @@ JMS, RabbitMQ, SQS(AWS)
 
 -----------------------------------------------
 
-| **Senior Software Developer (Contract)**        | **Sept 2020 – Aug 2021**     |
+| **Senior Software Developer (Contract)**        |**Sept 2020 – Aug 2021**     |
 |:--------------|-----------:|
 
 *LexisNexis Risk Solutions (Telematics Team)*
@@ -121,7 +121,6 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 | **Senior Software Developer (Contract)**        | **Mar 2013 – June 2017**     |
 |:--------------|-----------:|
-
 *The Now Factory (an IBM company)*
 *The Now Factory provides analytics software that helps communications service providers gain real-time insights into their customers by analysing massive quantities of network and business data. It was acquired by IBM in 2014.*
 
@@ -145,7 +144,6 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 | **Senior Software Developer**        | **Jul 2008 – Feb 2013**     |
 |:--------------|-----------:|
-
 *Wedo Technologies*
 *Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.*
 
@@ -166,7 +164,6 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 | **Software Developer**        | **Jan 2001 – Sep 2006**     |
 |:--------------|-----------:|
-
 *In1Solutions*
 *Provider of Hotel Booking Engine Technology.*
 
