@@ -1,6 +1,6 @@
 # Mark Mitchell
-**Email:** markmitchell451@gmail.com
-
+| **Email:** mark@camelcase.email       | **Portfolio:**www.camelcase.club   |
+|:--------------|-----------:|
 
 ## Summary
 
@@ -60,102 +60,44 @@ JMS, RabbitMQ, SQS(AWS)
     - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
     - Deploying code with feature flags (AWS AppConfig)
 
-______________________
-
-* fruits
-  + apples
-    - macintosh
-    - red delicious
-  + pears
-  + peaches
-* vegetables
-  + broccoli
-  + chard
-
-***************************
-
-**Key Projects:**  
-
-- Security modernisation for public facing APIs
-- Kubernetes sandbox development environment using Minikube, Helm and Skaffold
-- Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included...
-
-  - Deploying services to AWS ECS (Spring boot and Terraform)
-  - Service security (spring security, Ping Federate and AWS Cognito)
-  - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
-  - Deploying code with feature flags (AWS AppConfig)
-
-**Key Projects:**  
-
-- Security modernisation for public facing APIs
-- Kubernetes sandbox development environment using Minikube, Helm and Skaffold
-- Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included...
-  - Deploying services to AWS ECS (Spring boot and Terraform)
-  - Service security (spring security, Ping Federate and AWS Cognito)
-  - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
-  - Deploying code with feature flags (AWS AppConfig)
-
-**Key Projects:**  
-
-- Security modernisation for public facing APIs
-- Kubernetes sandbox development environment using Minikube, Helm and Skaffold
-- Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included...
-    - Deploying services to AWS ECS (Spring boot and Terraform)
-    - Service security (spring security, Ping Federate and AWS Cognito)
-    - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
-    - Deploying code with feature flags (AWS AppConfig)
-
-
-**Key Projects:**  
-
-- Security modernisation for public facing APIs
-- Kubernetes sandbox development environment using Minikube, Helm and Skaffold
-- Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included...
-
-    - Deploying services to AWS ECS (Spring boot and Terraform)
-    - Service security (spring security, Ping Federate and AWS Cognito)
-    - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
-    - Deploying code with feature flags (AWS AppConfig)
-
-
 
 -----------------------------------------------
 
 | **Senior Software Developer (Contract)**        | **Sept 2020 – Aug 2021**     |
 |:--------------|-----------:|
 
-- LexisNexis Risk Solutions (Telematics Team)  
-- LexisNexis Risk Telematics provide analytic solutions to car insurance companies using event data provided by automakers.  
+*LexisNexis Risk Solutions (Telematics Team)*
+*LexisNexis Risk Telematics provide analytic solutions to car insurance companies using event data provided by automakers.* 
 
 **Role:**
+
 - Backend developer responsible for the architecture, development and deployment of Spring Boot based microservices.
 - Writing Terraform infrastructure modules & designing AWS deployment pipelines
 - Unit, Integrations & BDD Tests using LocalStack.
 - Provide technical mentorship to team members.
 
 **Key Projects:**
+
 - The primary project was developing a set of services responsible for enriching Connected Car event data with Personal identifiable information.
 - Services were implemented using Spring Boot & Spring Cloud. 
 - Data read from encrypted AWS S3 bucket, new data events published to AWS SQS.
 BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 - Various DevOps related tasks…
-- Write supporting Terraform Modules
-- Resources deployed to AWS using Terragrunt & Terraform via GitLab pipelines
-- Services deployed to AWS Fargate.
-- Continuous Deployment PoC using Github Actions & jFrog
+    - Write supporting Terraform Modules
+    - Resources deployed to AWS using Terragrunt & Terraform via GitLab pipelines
+    - Services deployed to AWS Fargate.
+    - Continuous Deployment PoC using Github Actions & jFrog
 
-- LexisNexis Risk Solutions (Telematics Team)
-- LexisNexis Risk Telematics provide analytic solutions to car insurance companies using event data provided by automakers.  
+-----------------------------------------------
 
+| **Head of Technology (Contract)**        | **Sept 2017 - Jan 2020**     |
+|:--------------|-----------:|
 
-### Head of Technology (Contract)
-
-- Sept 2017 - Jan 2020
-
-- Invoicefair
-- InvoiceFair is a company that enables SMEs to sell invoices to investors using a bespoke trading platform. They have traded over €1.5 billion through the platform and won Most Disruptive Fintech Award at 2019 Deloitte Financial Services Innovation Awards.
+*Invoicefair*
+*InvoiceFair is a company that enables SMEs to sell invoices to investors using a bespoke trading platform. They have traded over €1.5 billion through the platform and won Most Disruptive Fintech Award at 2019 Deloitte Financial Services Innovation Awards.*
 
 **Role:**
+
 - Backend developer responsible for the migration of a legacy system to a microservice architecture. 
 - Prototyping and development of new features.
 - Evaluating emerging software technologies and frameworks.
@@ -163,19 +105,17 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 - Identify and address life cycle or process related inefficiencies.
 
 **Key Projects:**
+
 - The primary project was the migration of a legacy .NET Monolith to a microservice architecture. My tasks included…
 - Prototyping various architectures and microservice configurations
 - Securing front (Angular) and backend (Spring Boot) microservices using Springs OAuth 2.0 platform security and Netflix's Zuul router.
 - Migrations of .NET services to Spring Boot based REST services.
 - Full rewrite of the platforms internal banking API functionality (Spring Boot, SQL server)  
 - Various external API integrations e.g. Experian Financial reports (WSDL), MoneyCorp banking (REST), Slack (Webhooks)
-- Various DevOps related tasks…
-- Configured environment Infrastructure deployments (Terraform and Chef)
-- Setup CI/CD tooling using Jenkins pipelines on a Kubernetes cluster.
-- Creation of a remote developer sandbox leveraging Eclipse Che, allowing developers to spin up fully emulated personal development/debugging environments in minutes, without the need to locally install many programs, frameworks and tools.
-
-- Invoicefair
-- InvoiceFair is a company that enables SMEs to sell invoices to investors using a bespoke trading platform. They have traded over €1.5 billion through the platform and won Most Disruptive Fintech Award at 2019 Deloitte Financial Services Innovation Awards.
+    - Various DevOps related tasks…
+    - Configured environment Infrastructure deployments (Terraform and Chef)
+    - Setup CI/CD tooling using Jenkins pipelines on a Kubernetes cluster.
+    - Creation of a remote developer sandbox leveraging Eclipse Che, allowing developers to spin up fully emulated personal development/debugging environments in minutes, without the need to locally install many programs, frameworks and tools.
 
 
 
