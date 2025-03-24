@@ -28,7 +28,7 @@ jobs:
       - name: Generate DOCX (with Word style)
         run: |
           pandoc cv.md -o dist/cv.docx \
-            --reference-doc=templates/style_list.docx
+            --reference-doc=templates/style.docx
 
       - name: Generate HTML (with CSS)
         run: |
