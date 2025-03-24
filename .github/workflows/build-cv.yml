@@ -25,14 +25,14 @@ jobs:
       - name: Create output directory
         run: mkdir -p dist
 
-      # - name: Generate DOCX (with Word style)
-      #   run: |
-      #     pandoc cv.md -o dist/cv.docx \
-      #       --reference-doc=templates/style.docx
-
       - name: Generate DOCX (with Word style)
         run: |
-          pandoc cv.md -o dist/cv.docx --lua-filter=templates/fix-bullets.lua --reference-doc=templates/style.docx
+          pandoc cv.md -o dist/cv.docx \
+            --reference-doc=templates/style.docx
+
+      # - name: Generate DOCX (with Word style)
+      #   run: |
+      #     pandoc cv.md -o dist/cv.docx --lua-filter=templates/fix-bullets.lua --reference-doc=templates/style.docx
 
       - name: Generate HTML (with CSS)
         run: |
