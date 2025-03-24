@@ -51,6 +51,17 @@ JMS, RabbitMQ, SQS(AWS)
 
 **Key Projects:**  
 
+- Security modernisation for public facing APIs  
+- Kubernetes sandbox development environment using Minikube, Helm and Skaffold  
+- Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included:
+
+    - Deploying services to AWS ECS (Spring Boot and Terraform)  
+    - Service security (Spring Security, Ping Federate and AWS Cognito)  
+    - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)  
+    - Deploying code with feature flags (AWS AppConfig)
+
+**Key Projects:**  
+
 - Security modernisation for public facing APIs
 - Kubernetes sandbox development environment using Minikube, Helm and Skaffold
 - Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included...
