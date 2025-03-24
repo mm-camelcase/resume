@@ -9,12 +9,6 @@
 I have over 20 years Java programming and application development experience working across various industries including fintech, telecommunications and hospitality. I possess practical, hands-on expertise in executing and architecting the shift from legacy monolithic systems to a microservices-oriented environment. I also have strong DevOps skills ranging from Cloud infrastructure deployment automation to pipeline CICD configuration. During the initial 10 years of my career, I specialised as a full-stack developer, where my responsibilities included implementing robust middleware and creating feature-rich UIs.
 
 
-| Skill        | Level     | Years of Experience |
-|--------------|-----------|---------------------|
-| Java         | Advanced  | 10+                 |
-| Spring Boot  | Advanced  | 5                   |
-| Terraform    | Intermediate | 3                |
-
 
 
 ## Computer skills
@@ -78,7 +72,7 @@ JMS, RabbitMQ, SQS(AWS)
 ## Experience
 
 | **Senior Software Developer (Contract)**        | **Aug 2021 – Apr 2023**     |
-|--------------|-----------|
+|:--------------|-----------:|
 *Workhuman (Integrations Team)*
 *Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*
 
