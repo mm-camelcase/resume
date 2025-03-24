@@ -107,7 +107,6 @@ JMS, RabbitMQ, SQS(AWS)
 
 
 
-
 -----------------------------------------------
 
 | **Senior Software Developer (Contract)**        | **Sept 2020 – Aug 2021**     |
