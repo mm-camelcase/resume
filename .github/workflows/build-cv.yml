@@ -73,6 +73,17 @@ jobs:
       #     cat "$HTML_PATH" 
       #     wkhtmltopdf --enable-local-file-access "$HTML_PATH" dist/cv.pdf
 
+      - name: Generate PDF from styled HTML
+        run: |
+          HTML_FILE="$(pwd)/dist/cv.html"
+          HTML_URI="file://$HTML_FILE"
+      
+          # Debug actual file content (use local path)
+          cat "$HTML_FILE"
+      
+          # Then use wkhtmltopdf with file:// URI
+          wkhtmltopdf --enable-local-file-access "$HTML_URI" dist/cv.pdf
+
       - name: Upload resume artifacts
         uses: actions/upload-artifact@v4
         with:
