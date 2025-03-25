@@ -41,13 +41,13 @@ jobs:
       #       --css=styles/cv.css \
       #       --metadata title="Mark Mitchell – Resume"
 
-      - name: Generate HTML (inline CSS)
-        run: |
-          pandoc cv.md -o dist/cv.html \
-            --standalone \
-            --metadata title="Mark Mitchell – Resume" \
-            --resource-path=styles \
-            --embed-resources 
+      # - name: Generate HTML (inline CSS)
+      #   run: |
+      #     pandoc cv.md -o dist/cv.html \
+      #       --standalone \
+      #       --metadata title="Mark Mitchell – Resume" \
+      #       --resource-path=styles \
+      #       --embed-resources 
 
       # - name: Generate PDF (fallback)
       #   run: pandoc cv.md -o dist/cv.pdf
