@@ -1,11 +1,10 @@
 # Mark Mitchell  
 
-| **Email:**  [mark@camelcase.email](mailto:mark@camelcase.email) | **Portfolio:**   [www.camelcase.club](www.camelcase.club)   |
-|:--------------|-----------:|
 
 ::: {custom-style="ContactRight"}
-**Email:** mark@camelcase.email  
-**Portfolio:** www.camelcase.club
+**Email:** [mark@camelcase.email](mailto:mark@camelcase.email) 
+**Portfolio:** [www.camelcase.club](https://www.camelcase.club/)
+**Linkedin:** [www.linkedin.com](https://www.linkedin.com/in/mark-mitchell-camelcase/)
 :::
 
 ## Summary

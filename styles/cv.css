@@ -79,4 +79,9 @@ body {
   a:hover {
     text-decoration: underline;
   }
+
+  .ContactRight {
+    text-align: right;
+    margin-top: -2rem;
+  }
   
