@@ -133,8 +133,6 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 **Key Projects:**
 
-- Responsible for developing the backend of a data analytics application written in Java using Spring, REST, JMS, Presto & Hive.  
-- Developed various features including a formula parser and validation service which involved parsing and validating a grammar and providing detailed feedback to client (that could be used in UI to highlight lexical errors & provide content assist). Implemented using Spring and ANTLR.
 - Developed a data loading CLI module responsible for distributing and loading potentially 100s of millions of records from text files into potentially 80 separate Oracle database instances. A key requirement was high speed loading. Implemented using Java, Spring Batch and SQL Loader.
 - Proof of concept next generation data analytics UI. Developed using latest ES6 JavaScript features, NodeJS, Yarn, NMP, React, Redux and many other libraries.
 

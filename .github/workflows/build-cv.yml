@@ -57,7 +57,7 @@ jobs:
         run: sudo apt-get install -y wkhtmltopdf
 
       - name: Generate PDF from styled HTML
-        run: wkhtmltopdf dist/cv.html dist/cv.pdf
+        run: wkhtmltopdf --disable-smart-shrinking --no-stop-slow-scripts dist/cv.html dist/cv.pdf
     
 
       - name: Upload resume artifacts
