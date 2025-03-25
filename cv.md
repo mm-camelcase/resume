@@ -2,8 +2,8 @@
 
 
 ::: {custom-style="ContactRight"}
-**Email:** [mark@camelcase.email](mailto:mark@camelcase.email)<br>
-**Portfolio:** [www.camelcase.club](https://www.camelcase.club/)<br>
+**Email:** [mark@camelcase.email](mailto:mark@camelcase.email)  
+**Portfolio:** [www.camelcase.club](https://www.camelcase.club/)  
 **Linkedin:** [www.linkedin.com](https://www.linkedin.com/in/mark-mitchell-camelcase/)
 :::
 
