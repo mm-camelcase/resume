@@ -30,17 +30,6 @@ jobs:
           pandoc cv.md -o dist/cv.docx \
             --reference-doc=templates/style.docx
 
-      # - name: Generate DOCX (with Word style)
-      #   run: |
-      #     pandoc cv.md -o dist/cv.docx --lua-filter=templates/fix-bullets.lua --reference-doc=templates/style.docx
-
-      # - name: Generate HTML (with CSS)
-      #   run: |
-      #     pandoc cv.md -o dist/cv.html \
-      #       --standalone \
-      #       --css=styles/cv.css \
-      #       --metadata title="Mark Mitchell – Resume"
-
       - name: Generate HTML (inline CSS)
         run: |
           pandoc cv.md -o dist/cv.html \
@@ -49,29 +38,8 @@ jobs:
             --resource-path=styles \
             --embed-resources 
 
-      # - name: Generate PDF (fallback)
-      #   run: pandoc cv.md -o dist/cv.pdf
-
-      # - name: Generate PDF from DOCX
-      #   run: pandoc dist/cv.docx -o dist/cv2.pdf
-
-      # - name: Install LibreOffice
-      #   run: sudo apt-get install -y libreoffice
-      
-      # - name: Convert DOCX to PDF
-      #   run: libreoffice --headless --convert-to pdf dist/cv.docx --outdir dist/
-
       - name: Install wkhtmltopdf
         run: sudo apt-get install -y wkhtmltopdf
-
-      # - name: Generate PDF from styled HTML
-      #   run: wkhtmltopdf --disable-smart-shrinking --no-stop-slow-scripts dist/cv.html dist/cv.pdf
-    
-      # - name: Generate PDF from styled HTML
-      #   run: |
-      #     HTML_PATH="file://$(pwd)/dist/cv.html"
-      #     cat "$HTML_PATH" 
-      #     wkhtmltopdf --enable-local-file-access "$HTML_PATH" dist/cv.pdf
 
       - name: Generate PDF from styled HTML
         run: |
