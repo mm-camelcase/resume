@@ -42,14 +42,12 @@ JMS, RabbitMQ, SQS(AWS)
 *Workhuman (Integrations Team)*  
 *Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*  
 
-**Role:**  
-
+**Role:**
 - Development and maintenance of customer facing APIs and associated security concerns
 - Identify process/pipeline/cycle inefficiencies across team & squads
 - Provide technical training and advice to squads as part of the integration’s teams modernisation drive
 
 **Key Projects:**
-
 - Security modernisation for public facing APIs
 - Kubernetes sandbox development environment using Minikube, Helm and Skaffold
 - Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included:
@@ -57,7 +55,6 @@ JMS, RabbitMQ, SQS(AWS)
     - Service security (Spring Security, Ping Federate and AWS Cognito)
     - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
     - Deploying code with feature flags (AWS AppConfig)
-
 
 -----------------------------------------------
 
@@ -91,7 +88,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 | **Head of Technology (Contract)**        | **Sept 2017 - Jan 2020**     |
 |:--------------|-----------:|
 
-*Invoicefair*
+*Invoicefair*  
 *InvoiceFair is a company that enables SMEs to sell invoices to investors using a bespoke trading platform. They have traded over €1.5 billion through the platform and won Most Disruptive Fintech Award at 2019 Deloitte Financial Services Innovation Awards.*
 
 **Role:**
@@ -108,7 +105,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 - Prototyping various architectures and microservice configurations
 - Securing front (Angular) and backend (Spring Boot) microservices using Springs OAuth 2.0 platform security and Netflix's Zuul router.
 - Migrations of .NET services to Spring Boot based REST services.
-- Full rewrite of the platforms internal banking API functionality (Spring Boot, SQL server)  
+- Full rewrite of the platforms internal banking API functionality (Spring Boot, SQL server) 
 - Various external API integrations e.g. Experian Financial reports (WSDL), MoneyCorp banking (REST), Slack (Webhooks)
     - Various DevOps related tasks…
     - Configured environment Infrastructure deployments (Terraform and Chef)
@@ -140,7 +137,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 | **Senior Software Developer**        | **Jul 2008 – Feb 2013**     |
 |:--------------|-----------:|
-*Wedo Technologies*
+*Wedo Technologies*  
 *Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.*
 
 **Role:**
