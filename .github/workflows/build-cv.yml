@@ -14,9 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # - name: Install Pandoc
-      #   run: sudo apt-get update && sudo apt-get install -y pandoc
-
       - name: Install Pandoc + PDF support
         run: |
           sudo apt-get update
@@ -29,15 +26,6 @@ jobs:
         run: |
           pandoc cv.md -o dist/cv.docx \
             --reference-doc=templates/style.docx
-
-      # - name: Generate HTML (inline CSS)
-      #   run: |
-      #     pandoc cv.md -o dist/cv.html \
-      #       --standalone \
-      #       --metadata title="Mark Mitchell – Resume" \
-      #       --resource-path=styles \
-      #       --embed-resources \
-      #       --css=styles/style.css
 
       - name: Copy styles to dist
         run: cp styles/cv.css dist/

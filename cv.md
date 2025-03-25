@@ -64,7 +64,7 @@ JMS, RabbitMQ, SQS(AWS)
 | **Senior Software Developer (Contract)**        |**Sept 2020 – Aug 2021**     |
 |:--------------|-----------:|
 
-*LexisNexis Risk Solutions (Telematics Team)*
+*LexisNexis Risk Solutions (Telematics Team)*  
 *LexisNexis Risk Telematics provide analytic solutions to car insurance companies using event data provided by automakers.* 
 
 **Role:**
@@ -160,7 +160,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 | **Software Developer**        | **Jan 2001 – Sep 2006**     |
 |:--------------|-----------:|
-*In1Solutions*
+*In1Solutions*  
 *Provider of Hotel Booking Engine Technology.*
 
 **Role:**
