@@ -41,13 +41,13 @@ jobs:
       #       --css=styles/cv.css \
       #       --metadata title="Mark Mitchell – Resume"
 
-      # - name: Generate HTML (inline CSS)
-      #   run: |
-      #     pandoc cv.md -o dist/cv.html \
-      #       --standalone \
-      #       --metadata title="Mark Mitchell – Resume" \
-      #       --resource-path=styles \
-      #       --embed-resources 
+      - name: Generate HTML (inline CSS)
+        run: |
+          pandoc cv.md -o dist/cv.html \
+            --standalone \
+            --metadata title="Mark Mitchell – Resume" \
+            --resource-path=styles \
+            --embed-resources 
 
       # - name: Generate PDF (fallback)
       #   run: pandoc cv.md -o dist/cv.pdf
@@ -67,11 +67,11 @@ jobs:
       # - name: Generate PDF from styled HTML
       #   run: wkhtmltopdf --disable-smart-shrinking --no-stop-slow-scripts dist/cv.html dist/cv.pdf
     
-      - name: Generate PDF from styled HTML
-        run: |
-          HTML_PATH="file://$(pwd)/dist/cv.html"
-          cat "$HTML_PATH" 
-          wkhtmltopdf --enable-local-file-access "$HTML_PATH" dist/cv.pdf
+      # - name: Generate PDF from styled HTML
+      #   run: |
+      #     HTML_PATH="file://$(pwd)/dist/cv.html"
+      #     cat "$HTML_PATH" 
+      #     wkhtmltopdf --enable-local-file-access "$HTML_PATH" dist/cv.pdf
 
       - name: Upload resume artifacts
         uses: actions/upload-artifact@v4
