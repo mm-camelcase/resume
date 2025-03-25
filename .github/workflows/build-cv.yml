@@ -47,13 +47,18 @@ jobs:
       # - name: Generate PDF from DOCX
       #   run: pandoc dist/cv.docx -o dist/cv2.pdf
 
-      - name: Install LibreOffice
-        run: sudo apt-get install -y libreoffice
+      # - name: Install LibreOffice
+      #   run: sudo apt-get install -y libreoffice
       
-      - name: Convert DOCX to PDF
-        run: libreoffice --headless --convert-to pdf dist/cv.docx --outdir dist/
-      
-      
+      # - name: Convert DOCX to PDF
+      #   run: libreoffice --headless --convert-to pdf dist/cv.docx --outdir dist/
+
+      - name: Install wkhtmltopdf
+        run: sudo apt-get install -y wkhtmltopdf
+
+      - name: Generate PDF from styled HTML
+        run: wkhtmltopdf dist/cv.html dist/cv.pdf
+    
 
       - name: Upload resume artifacts
         uses: actions/upload-artifact@v4
