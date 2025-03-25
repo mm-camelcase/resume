@@ -41,6 +41,7 @@ jobs:
       - name: Install wkhtmltopdf
         run: sudo apt-get install -y wkhtmltopdf
 
+        
       - name: Generate PDF from styled HTML
         run: |
           HTML_FILE="$(pwd)/dist/cv.html"
