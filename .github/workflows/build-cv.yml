@@ -34,7 +34,6 @@ jobs:
         run: |
           pandoc cv.md -o dist/cv.html \
             --standalone \
-            --metadata title="Mark Mitchell – Resume" \
             --css=cv.css
 
       - name: Install wkhtmltopdf

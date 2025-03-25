@@ -1,5 +1,5 @@
 # Mark Mitchell
-| **Email:**   mark@camelcase.email       | **Portfolio:**   [www.camelcase.club](www.camelcase.club)   |
+| **Email:**  [mark@camelcase.email](mailto:mark@camelcase.email) | **Portfolio:**   [www.camelcase.club](www.camelcase.club)   |
 |:--------------|-----------:|
 
 ## Summary
@@ -110,7 +110,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 - Migrations of .NET services to Spring Boot based REST services.
 - Full rewrite of the platforms internal banking API functionality (Spring Boot, SQL server) 
 - Various external API integrations e.g. Experian Financial reports (WSDL), MoneyCorp banking (REST), Slack (Webhooks)
-    - Various DevOps related tasks…
+- Various DevOps related tasks…
     - Configured environment Infrastructure deployments (Terraform and Chef)
     - Setup CI/CD tooling using Jenkins pipelines on a Kubernetes cluster.
     - Creation of a remote developer sandbox leveraging Eclipse Che, allowing developers to spin up fully emulated personal development/debugging environments in minutes, without the need to locally install many programs, frameworks and tools.
@@ -119,7 +119,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 | **Senior Software Developer (Contract)**        | **Mar 2013 – June 2017**     |
 |:--------------|-----------:|
-*The Now Factory (an IBM company)*
+*The Now Factory (an IBM company)*  
 *The Now Factory provides analytics software that helps communications service providers gain real-time insights into their customers by analysing massive quantities of network and business data. It was acquired by IBM in 2014.*
 
 **Role:**
