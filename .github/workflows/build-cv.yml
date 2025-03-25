@@ -36,12 +36,13 @@ jobs:
             --standalone \
             --metadata title="Mark Mitchell – Resume" \
             --resource-path=styles \
-            --embed-resources 
+            --embed-resources \
+            --css=styles/style.css
 
       - name: Install wkhtmltopdf
         run: sudo apt-get install -y wkhtmltopdf
 
-        
+
       - name: Generate PDF from styled HTML
         run: |
           HTML_FILE="$(pwd)/dist/cv.html"
