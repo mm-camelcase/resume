@@ -39,12 +39,12 @@ jobs:
       #       --embed-resources \
       #       --css=styles/style.css
 
-      - name: Generate HTML (inline CSS)
+      - name: Generate HTML 
         run: |
           pandoc cv.md -o dist/cv.html \
             --standalone \
             --metadata title="Mark Mitchell – Resume" \
-            --css=styles/style.css
+            --css=styles/cv.css
 
       - name: Install wkhtmltopdf
         run: sudo apt-get install -y wkhtmltopdf
