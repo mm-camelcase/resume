@@ -30,13 +30,20 @@ jobs:
           pandoc cv.md -o dist/cv.docx \
             --reference-doc=templates/style.docx
 
+      # - name: Generate HTML (inline CSS)
+      #   run: |
+      #     pandoc cv.md -o dist/cv.html \
+      #       --standalone \
+      #       --metadata title="Mark Mitchell – Resume" \
+      #       --resource-path=styles \
+      #       --embed-resources \
+      #       --css=styles/style.css
+
       - name: Generate HTML (inline CSS)
         run: |
           pandoc cv.md -o dist/cv.html \
             --standalone \
             --metadata title="Mark Mitchell – Resume" \
-            --resource-path=styles \
-            --embed-resources \
             --css=styles/style.css
 
       - name: Install wkhtmltopdf
