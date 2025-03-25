@@ -39,6 +39,7 @@ jobs:
       #       --embed-resources \
       #       --css=styles/style.css
 
+      
       - name: Generate HTML 
         run: |
           pandoc cv.md -o dist/cv.html \
