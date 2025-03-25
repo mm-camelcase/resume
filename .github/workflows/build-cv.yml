@@ -46,7 +46,7 @@ jobs:
           pandoc cv.md -o dist/cv.html \
             --standalone \
             --metadata title="Mark Mitchell – Resume" \
-            --embed-resources \
+            --embed-resources=true \
             --css=styles/cv.css
 
       # - name: Generate PDF (fallback)
