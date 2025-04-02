@@ -14,18 +14,21 @@ I have over 20 years Java programming and application development experience wor
 ## Technical Expertise
 
 **Core Technologies**
+
 - Java (Spring Boot, Spring Security, Spring Cloud, Hibernate)
 - API Development (REST, GraphQL, OAuth 2.0, JWT)
 - JavaScript/TypeScript (React, Angular, ES6+)
 - Database Technologies (SQL, NoSQL, MongoDB, Oracle)
 
 **Cloud & DevOps**
+
 - AWS (ECS, S3, SQS, Lambda, AppConfig, Cognito)
 - Containerization (Docker, Kubernetes, Minikube, Helm)
 - Infrastructure as Code (Terraform, Terragrunt)
 - CI/CD (Jenkins, GitHub Actions, GitLab CI)
 
 **Architecture & Methodologies**
+
 - Microservices Design Patterns
 - Event-Driven Architecture
 - Agile/Scrum, Test-Driven Development
@@ -40,6 +43,7 @@ I have over 20 years Java programming and application development experience wor
 *Fintech platform enabling SMEs to access working capital through invoice trading.*  
 
 **Role & Responsibilities:**
+
 - Lead technical architecture and infrastructure modernisation initiatives
 - Build and mentor engineering team with appropriate skillsets
 - Implement observability solutions and monitoring systems
