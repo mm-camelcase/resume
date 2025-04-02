@@ -35,6 +35,7 @@ I have over 20 years Java programming and application development experience wor
 
 | **Principal Engineer**        | **Oct 2023 – Nov 2024**     |
 |:--------------|-----------:|
+
 *Financefair*  
 *Fintech platform enabling SMEs to access working capital through invoice trading.*  
 
@@ -45,6 +46,7 @@ I have over 20 years Java programming and application development experience wor
 - Design and deploy secure cloud infrastructure using AWS services
 
 **Key Achievements:**
+
 - Diagnosed and resolved critical system stability issues by optimizing JVM memory settings, eliminating production crashes
 - Implemented comprehensive observability solution using Datadog with custom alarms and dashboards, reducing incident response time by 80%
 - Completely rebuilt infrastructure using Terraform, Terragrunt, and GitHub Actions, improving deployment consistency and reducing maintenance overhead
@@ -55,6 +57,7 @@ I have over 20 years Java programming and application development experience wor
 
 | **Senior Software Developer (Contract , todo ?)**        | **Aug 2021 – Apr 2023**     |
 |:--------------|-----------:|
+
 *Workhuman (Integrations Team)*  
 *Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*  
 
