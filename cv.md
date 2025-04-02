@@ -11,35 +11,25 @@
 
 I have over 20 years Java programming and application development experience working across various industries including fintech, telecommunications and hospitality. I possess practical, hands-on expertise in executing and architecting the shift from legacy monolithic systems to a microservices-oriented environment. I also have strong DevOps skills ranging from Cloud infrastructure deployment automation to pipeline CICD configuration. During the initial 10 years of my career, I specialised as a full-stack developer, where my responsibilities included implementing robust middleware and creating feature-rich UIs.
 
-## Computer skills
+## Technical Expertise
 
-**Languages, Frameworks and Platforms**
+**Core Technologies**
+- Java (Spring Boot, Spring Security, Spring Cloud, Hibernate)
+- API Development (REST, GraphQL, OAuth 2.0, JWT)
+- JavaScript/TypeScript (React, Angular, ES6+)
+- Database Technologies (SQL, NoSQL, MongoDB, Oracle)
 
-- Java, JEE, Spring, Spring Boot, jUnit, Hibernate, Velocity, Struts, ANTLR
-- Shell scripting
-- SQL, PL/SQL Scripting
-- JavaScript (ES6), React, Angular, jQuery, ActionScript, HTML/CSS, XML, XSL, JSON
-- Unix, VM, Jetty, Tomcat, JBoss, JRun, Liferay, WebSphere
+**Cloud & DevOps**
+- AWS (ECS, S3, SQS, Lambda, AppConfig, Cognito)
+- Containerization (Docker, Kubernetes, Minikube, Helm)
+- Infrastructure as Code (Terraform, Terragrunt)
+- CI/CD (Jenkins, GitHub Actions, GitLab CI)
 
-**Datastores & Events**  
-
-- Oracle, SQL Server, MySQL, Postgres, MongoDB, Netezza, Hadoop (Presto, Hive), H2
-JMS, RabbitMQ, SQS(AWS)
-
-**Development Tools**  
-
-- Maven, Ant, Git, SVN, CVS, Jira, Jenkins
-- IntelliJ IDE, Eclipse IDE, NetBeans IDE, WebStorm IDE
-- ArchUnit, Checkstyle, FindBugs, JaCoCo
-
-**DevOps tools**  
-
-- Kubernetes, Chef, Terraform, Terragrunt, Docker, Vagrant, Localstack, OWASP Zap, Jenkins Pipelines, Gitlab CI, Github Actions, jFrog.
-
-**AWS & Azure**  
-
-- Eclipse Che, Datadog, Papertrail, Unison, Userify
-
+**Architecture & Methodologies**
+- Microservices Design Patterns
+- Event-Driven Architecture
+- Agile/Scrum, Test-Driven Development
+- Legacy System Migration
 
 ## Experience
 
