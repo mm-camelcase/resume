@@ -36,7 +36,7 @@ I have over 20 years Java programming and application development experience wor
 
 ## Professional Experience
 
-| **Principal Engineer**        | **Oct 2023 – Nov 2024**     |
+| **Principal Engineer**                     | **Oct 2023 – Nov 2024**     |
 |:--------------|-----------:|
 
 *Financefair*  
@@ -58,6 +58,7 @@ I have over 20 years Java programming and application development experience wor
 - Orchestrated migration from EC2/Docker to AWS ECS, improving scalability and reducing infrastructure costs by 40%
 - Built and trained a high-performing engineering team, establishing best practices for modern cloud-native development
 
+-----------------------------------------------
 
 | **Senior Software Developer (Contract , todo ?)**        | **Aug 2021 – Apr 2023**     |
 |:--------------|-----------:|
