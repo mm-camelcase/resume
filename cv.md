@@ -17,12 +17,12 @@ I have over 20 years of Java programming and application development experience 
 
 - Java (Spring Boot, Spring Security, Spring Cloud, Hibernate)
 - API Development (REST, GraphQL, OAuth 2.0, JWT)
-- JavaScript/TypeScript (Vue, React, Angular, ES6+)
+- JavaScript/TypeScript (React, Angular, Vue.js, ES6+)
 - Database Technologies (SQL, NoSQL, MongoDB, Oracle)
 
 **Cloud & DevOps**
 
-- AWS (ECS, S3, SQS, Lambda, AppConfig, Cognito)
+- AWS (ECS, S3, SQS, Lambda, AppConfig, Cognito, todo - update me)
 - Containerization (Docker, Kubernetes, Minikube, Helm)
 - Infrastructure as Code (Terraform, Terragrunt)
 - CI/CD (Jenkins, GitHub Actions, GitLab CI)

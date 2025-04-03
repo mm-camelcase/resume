@@ -56,6 +56,14 @@ jobs:
           name: resume-files
           path: dist/
 
+      - name: Deploy resume files to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          external_repository: mm-camelcase/mm-camelcase.github.io
+          publish_branch: main
+          publish_dir: ./dist
+
       # - name: Deploy to GitHub Pages
       #   uses: peaceiris/actions-gh-pages@v3
       #   with:
