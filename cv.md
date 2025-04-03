@@ -9,7 +9,7 @@
 
 ## Summary
 
-I have over 20 years Java programming and application development experience working across various industries including fintech, telecommunications and hospitality. I possess practical, hands-on expertise in executing and architecting the shift from legacy monolithic systems to a microservices-oriented environment. I also have strong DevOps skills ranging from Cloud infrastructure deployment automation to pipeline CICD configuration. During the initial 10 years of my career, I specialised as a full-stack developer, where my responsibilities included implementing robust middleware and creating feature-rich UIs.
+I have over 20 years of Java programming and application development experience across various industries including fintech, telecommunications, and hospitality. I possess practical, hands-on expertise in executing and architecting the modernization of legacy systems, including migration to cloud-native architectures such as microservices. I have strong DevOps skills ranging from cloud infrastructure deployment automation to CI/CD pipeline configuration, with particular focus on AWS environments. During the initial 10 years of my career, I specialized as a full-stack developer, implementing robust middleware and creating feature-rich UIs. Currently, I'm expanding my expertise by integrating AI and machine learning into my technical toolkit to enhance and optimize the systems I build.
 
 ## Technical Expertise
 
@@ -17,7 +17,7 @@ I have over 20 years Java programming and application development experience wor
 
 - Java (Spring Boot, Spring Security, Spring Cloud, Hibernate)
 - API Development (REST, GraphQL, OAuth 2.0, JWT)
-- JavaScript/TypeScript (React, Angular, ES6+)
+- JavaScript/TypeScript (Vue, React, Angular, ES6+)
 - Database Technologies (SQL, NoSQL, MongoDB, Oracle)
 
 **Cloud & DevOps**
@@ -27,7 +27,7 @@ I have over 20 years Java programming and application development experience wor
 - Infrastructure as Code (Terraform, Terragrunt)
 - CI/CD (Jenkins, GitHub Actions, GitLab CI)
 
-**Architecture & Methodologies**
+**Architecture & Methodologies (todo- update)**
 
 - Microservices Design Patterns
 - Event-Driven Architecture
@@ -36,7 +36,7 @@ I have over 20 years Java programming and application development experience wor
 
 ## Professional Experience
 
-| **Principal Engineer**                     | **Oct 2023 – Nov 2024**     |
+| **Principal Engineer (Contract)**                     | **Oct 2023 – Nov 2024**     |
 |:--------------|-----------:|
 
 *Financefair*  
@@ -60,7 +60,7 @@ I have over 20 years Java programming and application development experience wor
 
 -----------------------------------------------
 
-| **Senior Software Developer (Contract , todo ?)**        | **Aug 2021 – Apr 2023**     |
+| **Senior Software Developer (Contract)**        | **Aug 2021 – Apr 2023**     |
 |:--------------|-----------:|
 
 *Workhuman (Integrations Team)*  
