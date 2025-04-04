@@ -161,7 +161,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 -----------------------------------------------
 
-| **Senior Software Developer**        | **Jul 2008 – Feb 2013**     |
+| **Senior Software Developer**            | **Jul 2008 – Feb 2013**     |
 |:--------------|-----------:|
 *Wedo Technologies*  
 *Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.*
@@ -181,7 +181,7 @@ BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
 
 -----------------------------------------------
 
-| **Software Developer**        | **Jan 2001 – Sep 2006**     |
+| **Software Developer**                   | **Jan 2001 – Sep 2006**     |
 |:--------------|-----------:|
 *In1Solutions*  
 *Provider of Hotel Booking Engine Technology.*
