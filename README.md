@@ -1,7 +1,7 @@
 # 📄 Resume Builder
 
 [![Build Resume](https://github.com/mm-camelcase/resume/actions/workflows/build-cv.yml/badge.svg)](https://github.com/mm-camelcase/resume/actions/workflows/build-cv.yml)
-[![View Resume](https://mm-camelcase.github.io/resume/resume.html)](https://mm-camelcase.github.io/resume/resume.html)
+[![View Resume](https://img.shields.io/badge/View%20Resume-HTML-blue?logo=google-chrome)](https://mm-camelcase.github.io/resume/resume.html)
 
 This repository automatically builds and publishes my resume in **multiple formats** — HTML, PDF, and DOCX — using **GitHub Actions**.
 
