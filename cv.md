@@ -10,7 +10,7 @@
 
 ## Summary
 
-I have over 20 years of Java programming and application development experience across various industries including fintech, telecommunications, and hospitality. I possess practical, hands-on expertise in executing and architecting the modernization of legacy systems, including migration to cloud-native architectures such as microservices. I have strong DevOps skills ranging from cloud infrastructure deployment automation to CI/CD pipeline configuration, with particular focus on AWS environments. During the initial 10 years of my career, I specialized as a full-stack developer, implementing robust middleware and creating feature-rich UIs. Currently, I'm expanding my expertise by integrating AI and machine learning into my technical toolkit to enhance and optimize the systems I build.
+I have over 20 years of Java programming and application development experience across various industries, including fintech, telecommunications, and hospitality. I possess practical, hands-on expertise in executing and architecting the modernisation of legacy systems, including migration to cloud-native architectures such as microservices. I have strong DevOps skills ranging from cloud infrastructure deployment automation to CI/CD pipeline configuration, with particular focus on AWS environments. During the initial 10 years of my career, I specialised as a full-stack developer, implementing robust middleware and creating feature-rich UIs. Currently, I'm expanding my expertise by integrating AI and machine learning into my technical toolkit to enhance and optimise the systems I build.
 
 ## Technical Expertise
 
@@ -52,7 +52,7 @@ I have over 20 years of Java programming and application development experience 
 
 **Key Achievements:**
 
-- Diagnosed and resolved critical system stability issues by optimizing JVM memory settings, eliminating production crashes
+- Diagnosed and resolved critical system stability issues by optimising JVM memory settings, eliminating production crashes
 - Implemented comprehensive observability solution using Datadog with custom alarms and dashboards, reducing incident response time by 80%
 - Completely rebuilt infrastructure using Terraform, Terragrunt, and GitHub Actions, improving deployment consistency and reducing maintenance overhead
 - Enhanced security posture by migrating all services and databases to private subnets and implementing AWS Session Manager, eliminating SSH access vulnerabilities
@@ -65,17 +65,17 @@ I have over 20 years of Java programming and application development experience 
 |:--------------|-----------:|
 
 *Workhuman (Integrations Team)*  
-*Workhuman provide recognition software to companies enabling employees to recognise and reward each other.*  
+*Workhuman provide recognition software to companies, enabling employees to recognise and reward each other.*  
 
 **Role:**
 
-- Development and maintenance of customer facing APIs and associated security concerns
+- Development and maintenance of customer-facing APIs and associated security concerns
 - Identify process/pipeline/cycle inefficiencies across team & squads
-- Provide technical training and advice to squads as part of the integration’s teams modernisation drive
+- Provide technical training and advice to squads as part of the integration team’s modernisation drive
 
 **Key Projects:**
 
-- Security modernisation for public facing APIs
+- Security modernisation for public-facing APIs
 - Kubernetes sandbox development environment using Minikube, Helm and Skaffold
 - Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included:
     - Deploying services to AWS ECS (Spring Boot and Terraform)
