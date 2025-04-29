@@ -3,9 +3,9 @@
 
 ::: {custom-style="ContactRight"}
 **Email:** [mark@camelcase.email](mailto:mark@camelcase.email)  
+**Linkedin:** [www.linkedin.com/mmc](https://www.linkedin.com/in/mark-mitchell-camelcase/)  
 **Portfolio:** [www.camelcase.club](https://www.camelcase.club/)  
 **Github:** [github.com/mm-camelcase](https://github.com/mm-camelcase)  
-**Linkedin:** [www.linkedin.com/mmc](https://www.linkedin.com/in/mark-mitchell-camelcase/)
 :::
 
 ## Summary
