@@ -23,12 +23,12 @@ I have over 20 years of Java programming and application development experience 
 
 **Cloud & DevOps**
 
-- AWS (ECS, S3, SQS, Lambda, AppConfig, Cognito, todo - update me)
+- AWS (ECS, EKS, S3, SQS, Lambda, AppConfig, CloudWatch, VPC/Networking, IAM, EC2, ECR, SSM, Security Groups)
 - Containerization (Docker, Kubernetes, Minikube, Helm)
 - Infrastructure as Code (Terraform, Terragrunt)
 - CI/CD (Jenkins, GitHub Actions, GitLab CI)
 
-**Architecture & Methodologies (todo- update)**
+**Architecture & Methodologies**
 
 - Microservices Design Patterns
 - Event-Driven Architecture
