@@ -39,7 +39,7 @@ cv.md # The main resume content in Markdown
 ```
 
 
-## 📜 Requirements 
+## 📜 Requirements
 
 This project uses:
 - **Pandoc** — for converting Markdown into DOCX and HTML.
