@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7.0.1
 
       - name: Install Pandoc + PDF support
         run: |
@@ -54,7 +54,7 @@ jobs:
           wkhtmltopdf --enable-local-file-access "$HTML_URI" dist/cv.pdf
 
       - name: Upload resume artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: resume-files
           path: dist/
@@ -65,7 +65,7 @@ jobs:
       # s3://camelcase-agent-kb-966412459053/cv.md
       - name: Configure AWS credentials
         if: ${{ env.AWS_ROLE_TO_ASSUME != '' }}
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6.2.3
         with:
           role-to-assume: ${{ env.AWS_ROLE_TO_ASSUME }}
           aws-region: ${{ env.AWS_REGION }}
@@ -91,7 +91,7 @@ jobs:
           cp dist/cv.css deploy-dir/resume/cv.css
       
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           external_repository: mm-camelcase/mm-camelcase.github.io
