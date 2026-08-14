@@ -1,0 +1,70 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Limited GitHub Actions OIDC role for uploading resume cv.md to the camelcase-agent knowledge-base bucket.
+
+Parameters:
+  GitHubOrg:
+    Type: String
+    Default: mm-camelcase
+    Description: GitHub organization or user that owns the repository.
+
+  GitHubRepo:
+    Type: String
+    Default: resume
+    Description: GitHub repository allowed to assume this role.
+
+  GitHubBranch:
+    Type: String
+    Default: main
+    Description: GitHub branch allowed to assume this role.
+
+  RoleName:
+    Type: String
+    Default: resume-cv-s3-upload-github-oidc
+    Description: IAM role name to create for the GitHub Actions workflow.
+
+  BucketName:
+    Type: String
+    Default: camelcase-agent-kb-966412459053
+    Description: S3 bucket that receives the source CV Markdown.
+
+  ObjectKey:
+    Type: String
+    Default: cv.md
+    Description: Exact S3 object key the workflow is allowed to write.
+
+  GitHubOidcProviderArn:
+    Type: String
+    Description: Existing GitHub Actions OIDC provider ARN for this AWS account, e.g. arn:aws:iam::123456789012:oidc-provider/token.actions.githubusercontent.com.
+
+Resources:
+  GitHubActionsCvUploadRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Ref RoleName
+      Description: Allows mm-camelcase/resume GitHub Actions on main to upload cv.md to the camelcase-agent knowledge base bucket.
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Federated: !Ref GitHubOidcProviderArn
+            Action: sts:AssumeRoleWithWebIdentity
+            Condition:
+              StringEquals:
+                token.actions.githubusercontent.com:aud: sts.amazonaws.com
+                token.actions.githubusercontent.com:sub: !Sub repo:${GitHubOrg}/${GitHubRepo}:ref:refs/heads/${GitHubBranch}
+      Policies:
+        - PolicyName: UploadOnlySourceCvMarkdown
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Sid: PutOnlyCvMarkdown
+                Effect: Allow
+                Action:
+                  - s3:PutObject
+                Resource: !Sub arn:aws:s3:::${BucketName}/${ObjectKey}
+
+Outputs:
+  RoleArn:
+    Description: Store this ARN in the GitHub repository secret AWS_ROLE_TO_ASSUME.
+    Value: !GetAtt GitHubActionsCvUploadRole.Arn

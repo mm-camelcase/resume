@@ -5,9 +5,16 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      AWS_ROLE_TO_ASSUME: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+      AWS_REGION: ${{ vars.AWS_REGION || 'eu-west-1' }}
 
     steps:
       - name: Checkout repository
@@ -43,11 +50,7 @@ jobs:
         run: |
           HTML_FILE="$(pwd)/dist/cv.html"
           HTML_URI="file://$HTML_FILE"
-      
-          # Debug actual file content (use local path)
-          cat "$HTML_FILE"
-      
-          # Then use wkhtmltopdf with file:// URI
+
           wkhtmltopdf --enable-local-file-access "$HTML_URI" dist/cv.pdf
 
       - name: Upload resume artifacts
@@ -56,6 +59,28 @@ jobs:
           name: resume-files
           path: dist/
 
+      # TODO: Create an AWS IAM role trusted by GitHub Actions OIDC for this repo
+      # and save its ARN in the GitHub secret AWS_ROLE_TO_ASSUME.
+      # The role needs permission to put exactly:
+      # s3://camelcase-agent-kb-966412459053/cv.md
+      - name: Configure AWS credentials
+        if: ${{ env.AWS_ROLE_TO_ASSUME != '' }}
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Upload source CV Markdown to camelcase-agent knowledge base
+        if: ${{ env.AWS_ROLE_TO_ASSUME != '' }}
+        run: |
+          aws s3 cp cv.md s3://camelcase-agent-kb-966412459053/cv.md \
+            --content-type "text/markdown; charset=utf-8"
+
+      - name: Note missing AWS OIDC configuration
+        if: ${{ env.AWS_ROLE_TO_ASSUME == '' }}
+        run: |
+          echo "Skipping S3 upload because GitHub secret AWS_ROLE_TO_ASSUME is not configured."
+          echo "Create an AWS IAM role trusted by GitHub Actions OIDC for this repo, then store its ARN in AWS_ROLE_TO_ASSUME."
 
       - name: Prepare deploy directory
         run: |
@@ -75,4 +100,3 @@ jobs:
           keep_files: true
 
       
-
