@@ -13,7 +13,7 @@ Every time a change is pushed to the `main` branch:
 1. **Checkout the repository** using `actions/checkout`.
 2. **Install tools** needed to build the resume:
    - `pandoc` (for DOCX and HTML generation)
-   - `wkhtmltopdf` (for PDF generation)
+   - headless Chrome (for PDF generation)
 3. **Generate outputs**:
    - **DOCX**: From `cv.md` using a Word template (`templates/style.docx`)
    - **HTML**: From `cv.md` styled with `styles/cv.css`
@@ -48,7 +48,7 @@ cv.md # The main resume content in Markdown
 
 This project uses:
 - **Pandoc** — for converting Markdown into DOCX and HTML.
-- **wkhtmltopdf** — for converting styled HTML into PDF.
+- **Headless Chrome** — for converting styled HTML into PDF.
 - **GitHub Actions** — to automate builds and deployments.
 - A **Personal Access Token** with `repo` permissions (saved as a secret named `PERSONAL_ACCESS_TOKEN`) for publishing to GitHub Pages.
 
