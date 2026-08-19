@@ -1,212 +1,96 @@
-# Mark Mitchell  
-
-
-::: {custom-style="ContactRight"}
-**Email:** [mark@camelcase.email](mailto:mark@camelcase.email)  
-**Linkedin:** [www.linkedin.com/mmc](https://www.linkedin.com/in/mark-mitchell-camelcase/)  
-**Portfolio:** [www.camelcase.club](https://www.camelcase.club/)  
-**Github:** [github.com/mm-camelcase](https://github.com/mm-camelcase)  
+Mark Mitchell
+::: {custom-style="ContactRight"} Email: mark@camelcase.email
+Linkedin: www.linkedin.com/mmc
+Portfolio: www.camelcase.club
+Github: github.com/mm-camelcase
 :::
 
-## Summary
+Summary
+AI/software engineer with 25+ years building production systems, now specialising at the intersection of applied AI engineering and compliance governance. Recent work spans multi-cloud RAG pipelines, agentic workflow infrastructure, and AWS Bedrock deployments, layered on deep DevOps/SRE and cloud architecture experience (AWS, Kubernetes, Terraform, ArgoCD). Architectures are designed compliant by default — IAM, SSO and least-privilege access policies built into the platform layer, not retrofitted — informed by hands-on ISO 27001 and SOC 2 governance work. Currently building AI infrastructure and SDLC tooling at a Series A AI startup, alongside a public engineering portfolio (camelcase.club) as a working demonstration of these skills.
 
-I have over 20 years of Java programming and application development experience across various industries, including fintech, telecommunications, and hospitality. I possess practical, hands-on expertise in executing and architecting the modernisation of legacy systems, including migration to cloud-native architectures such as microservices. I have strong DevOps skills ranging from cloud infrastructure deployment automation to CI/CD pipeline configuration, with particular focus on AWS environments. During the initial 10 years of my career, I specialised as a full-stack developer, implementing robust middleware and creating feature-rich UIs. Currently, I'm expanding my expertise by integrating AI and machine learning into my technical toolkit to enhance and optimise the systems I build.
+Technical Expertise
 
-## Technical Expertise
+AI & Agentic Systems
+RAG pipelines (Azure Document Intelligence, vector search, LLM tool-calling), AWS Bedrock, multi-cloud AI infrastructure (AWS/Azure), LLM observability (LangFuse), agent-assisted development at scale (parallel agent orchestration)
 
-**Core Technologies**
+Cloud & Platform Architecture
+AWS (Bedrock, EKS, ECS, Lambda, S3, SQS, CloudWatch, IAM, VPC/Networking), Azure, Kubernetes, ArgoCD, Terraform/Terragrunt, Docker/Helm, CI/CD (GitHub Actions, Jenkins, GitLab CI)
 
-- Java (Spring Boot, Spring Security, Spring Cloud, Hibernate)
-- API Development (REST, GraphQL, OAuth 2.0, JWT)
-- JavaScript/TypeScript (React, Angular, Vue.js, ES6+)
-- Database Technologies (SQL, NoSQL, MongoDB, Oracle)
+Security & Compliance
+ISO 27001, SOC 2, DevSecOps, IAM/SSO design, least-privilege access architecture, OAuth 2.0/JWT, secure-by-default infrastructure patterns
 
-**Cloud & DevOps**
+Core Development
+Java (Spring Boot, Spring Security, Spring Cloud, Hibernate), Python (agent-assisted development), JavaScript/TypeScript (React, Angular, Vue.js), REST/GraphQL APIs, microservices & event-driven architecture
 
-- AWS (ECS, EKS, S3, SQS, Lambda, AppConfig, CloudWatch, VPC/Networking, IAM, EC2, ECR, SSM, Security Groups)
-- Containerization (Docker, Kubernetes, Minikube, Helm)
-- Infrastructure as Code (Terraform, Terragrunt)
-- CI/CD (Jenkins, GitHub Actions, GitLab CI)
+Professional Experience
 
-**Architecture & Methodologies**
+Platform & AI Engineer — Alludium (Series A, AI agent operating system)	Jul 2025 – Present
+Lead platform engineer, driving DevOps/SRE, AI infrastructure and security/compliance for a no-code agentic workflow platform, while also contributing as a developer on the platform's core agentic tooling. Joined pre-infrastructure and built the majority of the platform foundation, using agent-accelerated development to cover ground well beyond typical single-engineer scope.
 
-- Microservices Design Patterns
-- Event-Driven Architecture
-- Agile/Scrum, Test-Driven Development
-- Legacy System Migration
+Key Achievements:
 
-## Professional Experience
+Designed and built the entire multi-cloud infrastructure-as-code foundation from scratch (Terraspace + Terraform modules), establishing the architectural base the platform has scaled on since
+Built the first end-to-end automated release process: SemVer-versioned (major/minor/patch + hotfix), fully automated via GitHub Actions, Kubernetes and ArgoCD
+Led a full security lockdown of a previously ungoverned access model — replaced scattered static keys with AWS SSO and role-based permissions across pipelines and infrastructure, including AWS Bedrock access
+Built a full observability stack from zero visibility to fully correlated traces, logs and metrics (Grafana), enabling direct trace-to-log-to-metric navigation during incident response; extended this with LangFuse for AI agent observability, correlated back to the same trace data (v4 SDK/OTEL upgrade planned)
+Built automated cost and error reporting used directly in CEO and executive-level meetings
+Delivered a multi-cloud RAG pipeline end-to-end — infrastructure, code and architecture — ingesting and extracting documents via Azure Document Intelligence, indexing to a vector store, and retrieving results into LLM tool calls for downstream Q&A; selected the ingestion engine via a structured, data-driven bake-off, documented and presented as a formal recommendation
+Designed and built infrastructure for a separate invite-only platform on an isolated AWS account for a sister company, including a self-serve developer setup that lets non-technical users configure and manage their own environment by pointing an agent at a page
+Documented every major architectural decision as an ADR with a risk/reward analysis, ensuring decisions were deliberately scoped to the organisation's size and stage rather than over-engineered
 
-| **Principal Engineer (Contract)**                     | **Oct 2023 – Nov 2024**     |
-|:--------------|-----------:|
+Principal Engineer (Contract) — Financefair	Oct 2023 – Nov 2024
+Fintech platform enabling SMEs to access working capital through invoice trading.
 
-*Financefair*  
-*Fintech platform enabling SMEs to access working capital through invoice trading.*  
+Led technical architecture and infrastructure modernisation; built and mentored the engineering team.
 
-**Role & Responsibilities:**
+Diagnosed and resolved critical system stability issues via JVM memory optimisation, eliminating production crashes
+Implemented Datadog observability with custom alarms and dashboards, reducing incident response time by 80%
+Rebuilt infrastructure using Terraform, Terragrunt and GitHub Actions, improving deployment consistency
+Migrated services and databases to private subnets with AWS Session Manager, eliminating SSH access vulnerabilities
+Orchestrated EC2/Docker → AWS ECS migration, improving scalability and reducing infrastructure costs by 40%
 
-- Lead technical architecture and infrastructure modernisation initiatives
-- Build and mentor engineering team with appropriate skillsets
-- Implement observability solutions and monitoring systems
-- Design and deploy secure cloud infrastructure using AWS services
+Senior Software Developer (Contract) — Workhuman (Integrations Team)	Aug 2021 – Apr 2023
+Recognition software enabling employees to recognise and reward each other.
 
-**Key Achievements:**
+Led security modernisation for public-facing APIs
+Built a Kubernetes sandbox development environment (Minikube, Helm, Skaffold)
+Delivered technical training across squads (POCs, documentation, presentations) covering AWS ECS deployment, Spring Security/Ping Federate/Cognito, microservice patterns, and feature-flag deployment (AWS AppConfig)
 
-- Diagnosed and resolved critical system stability issues by optimising JVM memory settings, eliminating production crashes
-- Implemented comprehensive observability solution using Datadog with custom alarms and dashboards, reducing incident response time by 80%
-- Completely rebuilt infrastructure using Terraform, Terragrunt, and GitHub Actions, improving deployment consistency and reducing maintenance overhead
-- Enhanced security posture by migrating all services and databases to private subnets and implementing AWS Session Manager, eliminating SSH access vulnerabilities
-- Orchestrated migration from EC2/Docker to AWS ECS, improving scalability and reducing infrastructure costs by 40%
-- Built and trained a high-performing engineering team, establishing best practices for modern cloud-native development
+Senior Software Developer (Contract) — LexisNexis Risk Solutions (Telematics Team)	Sept 2020 – Aug 2021
+Analytic solutions for car insurance companies using automaker-supplied event data.
 
------------------------------------------------
+Architected and deployed Spring Boot microservices enriching Connected Car event data with PII, reading from encrypted S3 and publishing to SQS
+Wrote Terraform infrastructure modules and designed AWS deployment pipelines (Fargate, via GitLab)
+Built unit/integration/BDD test suites using LocalStack; mentored team members
 
-| **Senior Software Developer (Contract)**        | **Aug 2021 – Apr 2023**     |
-|:--------------|-----------:|
+Head of Technology (Contract) — Invoicefair	Sept 2017 – Jan 2020
+Fintech invoice-trading platform (€1.5bn+ traded; Deloitte Most Disruptive Fintech 2019).
 
-*Workhuman (Integrations Team)*  
-*Workhuman provide recognition software to companies, enabling employees to recognise and reward each other.*  
+Led migration of a legacy .NET monolith to microservices architecture
+Secured Angular/Spring Boot services using OAuth 2.0 and Zuul; rewrote internal banking API (Spring Boot, SQL Server)
+Integrated external APIs (Experian, MoneyCorp, Slack); configured Terraform/Chef infrastructure and Jenkins-on-Kubernetes CI/CD
+Built a remote developer sandbox on Eclipse Che for fully emulated personal dev environments
 
-**Role:**
+Senior Software Developer (Contract) — The Now Factory (an IBM company)	Mar 2013 – June 2017
+Real-time network/business data analytics for communications service providers (acquired by IBM, 2014).
 
-- Development and maintenance of customer-facing APIs and associated security concerns
-- Identify process/pipeline/cycle inefficiencies across team & squads
-- Provide technical training and advice to squads as part of the integration team’s modernisation drive
+Built a high-speed data loading CLI distributing 100s of millions of records across ~80 Oracle instances (Java, Spring Batch, SQL Loader)
+Developed a next-gen analytics UI POC (ES6, Node.js, React, Redux)
 
-**Key Projects:**
+Senior Software Developer — Wedo Technologies	Jul 2008 – Feb 2013
+Revenue assurance products for communications service providers.
 
-- Security modernisation for public-facing APIs
-- Kubernetes sandbox development environment using Minikube, Helm and Skaffold
-- Technical training in the form of POCs, detailed documentation, presentations, and recorded videos. Sessions included:
-    - Deploying services to AWS ECS (Spring Boot and Terraform)
-    - Service security (Spring Security, Ping Federate and AWS Cognito)
-    - Various microservice patterns (e.g. Gateway Pattern, Event Driven, etc.)
-    - Deploying code with feature flags (AWS AppConfig)
+Built backend for a Java/Spring/REST/JMS data analytics application (Presto, Hive)
+Implemented a formula parser/validation service (Spring, ANTLR) and configurable charting dashboards
 
------------------------------------------------
+Software Developer — In1Solutions	Jan 2001 – Sep 2006
+Hotel booking engine technology provider.
 
-| **Senior Software Developer (Contract)**        |**Sept 2020 – Aug 2021**     |
-|:--------------|-----------:|
+Developed a booking engine used by hundreds of hoteliers (Flash UI, Java/EJB, Oracle)
+Integrated with hotelier property management systems via SOAP/REST/JAXB/Axis
 
-*LexisNexis Risk Solutions (Telematics Team)*  
-*LexisNexis Risk Telematics provide analytic solutions to car insurance companies using event data provided by automakers.* 
+Education & Certifications
 
-**Role:**
-
-- Backend developer responsible for the architecture, development and deployment of Spring Boot based microservices.
-- Writing Terraform infrastructure modules & designing AWS deployment pipelines
-- Unit, Integrations & BDD Tests using LocalStack.
-- Provide technical mentorship to team members.
-
-**Key Projects:**
-
-- The primary project was developing a set of services responsible for enriching Connected Car event data with Personal identifiable information.
-- Services were implemented using Spring Boot & Spring Cloud. 
-- Data read from encrypted AWS S3 bucket, new data events published to AWS SQS.
-BDD Tests implemented leveraging LocalStack (AWS docker based emulator).
-- Various DevOps related tasks…
-    - Write supporting Terraform Modules
-    - Resources deployed to AWS using Terragrunt & Terraform via GitLab pipelines
-    - Services deployed to AWS Fargate.
-    - Continuous Deployment PoC using Github Actions & jFrog
-
------------------------------------------------
-
-| **Head of Technology (Contract)**        | **Sept 2017 - Jan 2020**     |
-|:--------------|-----------:|
-
-*Invoicefair*  
-*InvoiceFair is a company that enables SMEs to sell invoices to investors using a bespoke trading platform. They have traded over €1.5 billion through the platform and won Most Disruptive Fintech Award at 2019 Deloitte Financial Services Innovation Awards.*
-
-**Role:**
-
-- Backend developer responsible for the migration of a legacy system to a microservice architecture. 
-- Prototyping and development of new features.
-- Evaluating emerging software technologies and frameworks.
-- Provide technical mentorship to team members.
-- Identify and address life cycle or process related inefficiencies.
-
-**Key Projects:**
-
-- The primary project was the migration of a legacy .NET Monolith to a microservice architecture. My tasks included…
-- Prototyping various architectures and microservice configurations
-- Securing front (Angular) and backend (Spring Boot) microservices using Springs OAuth 2.0 platform security and Netflix's Zuul router.
-- Migrations of .NET services to Spring Boot based REST services.
-- Full rewrite of the platforms internal banking API functionality (Spring Boot, SQL server) 
-- Various external API integrations e.g. Experian Financial reports (WSDL), MoneyCorp banking (REST), Slack (Webhooks)
-- Various DevOps related tasks…
-    - Configured environment Infrastructure deployments (Terraform and Chef)
-    - Setup CI/CD tooling using Jenkins pipelines on a Kubernetes cluster.
-    - Creation of a remote developer sandbox leveraging Eclipse Che, allowing developers to spin up fully emulated personal development/debugging environments in minutes, without the need to locally install many programs, frameworks and tools.
-
------------------------------------------------
-
-| **Senior Software Developer (Contract)**        | **Mar 2013 – June 2017**     |
-|:--------------|-----------:|
-*The Now Factory (an IBM company)*  
-*The Now Factory provides analytics software that helps communications service providers gain real-time insights into their customers by analysing massive quantities of network and business data. It was acquired by IBM in 2014.*
-
-**Role:**
-
-- Applications Team member responsible for developing next generation middleware
-- Writing unit tests
-- Develop proof of concept products/features utilising latest technologies
-- Debug and solve customer issues
-- Code reviews
-- Participate in scrum development process (planning, estimates, etc.)
-
-**Key Projects:**
-
-- Developed a data loading CLI module responsible for distributing and loading potentially 100s of millions of records from text files into potentially 80 separate Oracle database instances. A key requirement was high speed loading. Implemented using Java, Spring Batch and SQL Loader.
-- Proof of concept next generation data analytics UI. Developed using latest ES6 JavaScript features, NodeJS, Yarn, NMP, React, Redux and many other libraries.
-
------------------------------------------------
-
-| **Senior Software Developer**            | **Jul 2008 – Feb 2013**     |
-|:--------------|-----------:|
-*Wedo Technologies*  
-*Wedo Technologies provide Revenue Assurance products to communications service providers, which assist in eliminating revenue leakage by reconciling network consumption and billing system information.*
-
-**Role:**
-
-- Full stack development role. 
-- Writing unit tests
-- Debugging and fixing code bugs
-
-**Key Projects:**
-
-- Responsible for developing the backend of a data analytics application written in Java using Spring, REST, JMS, Presto & Hive.  
-- Developed various features including a formula parser and validation service which involved parsing and validating a grammar and providing detailed feedback to client (that could be used in UI to highlight lexical errors & provide content assist). Implemented using Spring and ANTLR.
-- Implemented various features for a data analytics Portlet application container. For example, a configurable charting dashboard using technologies such as jQuery, Highcharts, Struts MVC, Spring services, Velocity, Hibernate, Oracle.
-- Expression builder component using jQuery and CodeMirror UI backed by Struts MVC and Spring services
-
------------------------------------------------
-
-| **Software Developer**                   | **Jan 2001 – Sep 2006**     |
-|:--------------|-----------:|
-*In1Solutions*  
-*Provider of Hotel Booking Engine Technology.*
-
-**Role:**
-
-- Responsible for the development of a product called Hotel In1
-- Designing and managing the database, writing PL/SQL maintenance scripts, optimising performance, etc.
-- Liaising with the Hoteliers system vendor to capture requirements and identify integration issues
-- Debugging and fixing code bugs
-
-**Key Projects:**
-
-- Developed a Hotel booking engine which is used by hundreds of hoteliers worldwide. Implemented using a Flash based UI, Java & EJB middleware. Backed by an Oracle database.
-- Integrated the booking engine with several hotelier’s in-house property management systems using various Web Service technologies (SOAP, REST, JAXB, XMLBeans, Axis)
-
-
-## Education
-
-**Certifications**
-
-- Sun Certified Programmer (Java 5.0)
-
-**Athlone Institute of Technology**
-
-- H. Dip in Computing (1999-2000)
-- B. Eng Polymer Engineering (1995-1999)
+Sun Certified Programmer (Java 5.0)
+H. Dip in Computing — Athlone Institute of Technology (1999–2000)
+B. Eng Polymer Engineering (1995–1999)
