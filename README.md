@@ -12,7 +12,7 @@ Every time a change is pushed to the `main` branch:
 
 1. **Checkout the repository** using `actions/checkout`.
 2. **Install tools** needed to build the resume:
-   - `pandoc` and `texlive-xetex` (for DOCX and HTML generation)
+   - `pandoc` (for DOCX and HTML generation)
    - `wkhtmltopdf` (for PDF generation)
 3. **Generate outputs**:
    - **DOCX**: From `cv.md` using a Word template (`templates/style.docx`)
