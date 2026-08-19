@@ -20,3 +20,10 @@ git diff --word-diff versions/cv-YYYY-MM-DD.md cv.md
 - The workflow builds `cv.md` into HTML, PDF, and DOCX, then publishes them to GitHub Pages at `https://mm-camelcase.github.io/resume/`.
 - When `AWS_ROLE_TO_ASSUME` is configured in GitHub secrets, the workflow also uploads the raw `cv.md` source to `s3://camelcase-agent-kb-966412459053/cv.md`.
 - To make CV updates go live, commit the archive and `cv.md` changes, then push `main` to `origin`.
+
+## Formatting Guardrails
+
+- Treat the Markdown-to-HTML/PDF/DOCX formatting as an important maintained surface, not disposable build plumbing.
+- Preserve `styles/cv.css`, `templates/style.docx`, Pandoc options, and PDF rendering behavior unless a change is required to fix a verified problem.
+- After changing `cv.md` structure or the build workflow, verify that generated HTML uses real headings/lists and that the published PDF does not contain browser print headers, footers, file paths, dates, or page furniture.
+- If changing the PDF renderer, visually inspect rendered PDF pages before considering the deployment complete.
