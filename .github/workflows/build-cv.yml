@@ -49,6 +49,8 @@ jobs:
             --headless \
             --disable-gpu \
             --no-sandbox \
+            --no-pdf-header-footer \
+            --print-to-pdf-no-header \
             --print-to-pdf="$(pwd)/dist/cv.pdf" \
             "$HTML_URI"
 
